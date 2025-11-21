@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw
 import numpy as np
 import random, hashlib
 
-st.set_page_config(page_title="HemaVision (Simulated)", layout="wide")
+st.set_page_config(page_title="Molecula (Simulated)", layout="wide")
 
 st.markdown("""
 <style>
@@ -12,7 +12,7 @@ body { background-color: #0b0f14; color: #e6eef6; }
 </style>
 """, unsafe_allow_html=True)
 
-st.title("HemaVision – Automated Blood Smear Analyzer (Demo)")
+st.title("Molecula – Automated Blood Smear Analyzer (Demo)")
 st.caption("Simulated detection and WBC subtype classification for presentation purposes; not clinically validated.")
 
 CLASSES = ["RBC", "WBC", "Platelet"]
